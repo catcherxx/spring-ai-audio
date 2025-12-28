@@ -12,6 +12,5 @@ public interface OpenAIService {
 
     byte[] getSpeech(Question question);
 
-    String getTranscript(MultipartFile file);
 }
 

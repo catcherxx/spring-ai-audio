@@ -30,9 +30,10 @@ public class QuestionController {
             @RequestParam("name") String name
     ) {
 
-        Map<String, String> response = Map.of("response", openAIService.getTranscript(file));
-
-        return ResponseEntity.ok(response);
+//        Map<String, String> response = Map.of("response", openAIService.getTranscript(file));
+//
+//        return ResponseEntity.ok(response);
+        return null;
     }
 
     @PostMapping(value ="/talk", produces = "audio/mpeg")
